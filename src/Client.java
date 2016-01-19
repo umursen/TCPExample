@@ -13,8 +13,8 @@ public class Client
 	public static void main(String args[]) throws IOException
 	{
 		InetAddress address = InetAddress.getLocalHost();
-	System.out.println(address);
-		Socket communicationSocket = new Socket("192.168.1.21", 52282);
+		System.out.println(address);
+		Socket communicationSocket = new Socket(address, 4445);
 
 		String line=null;
 		BufferedReader br=null;

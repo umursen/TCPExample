@@ -21,7 +21,7 @@ public class Server
 				System.out.println("Server is on!");
 				try
 				{
-					serverSocket = new ServerSocket(52282);
+					serverSocket = new ServerSocket(4445);
 					System.out.println("listening on port: " + serverSocket.getLocalPort());
 				}
 				catch(IOException e)

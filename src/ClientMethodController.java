@@ -59,7 +59,7 @@ public class ClientMethodController {
 			e.printStackTrace();
 		}
 
-		if(serverAnswer.isNull(0)){
+		if(serverAnswer.equals(null)){
 			System.out.println("No update required!");
 			return;
 		}
